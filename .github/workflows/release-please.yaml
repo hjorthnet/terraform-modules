@@ -71,7 +71,7 @@ jobs:
       matrix:
         module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
     steps:
-      - uses: google-github-actions/release-please-action@v4
+      - uses: googleapis/release-please-action@v4
         id: release
         with:
           path: modules/${{ matrix.module }}
