@@ -79,25 +79,24 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: terraform-module
           package-name: ${{ matrix.module }}
-          monorepo-tags: true
-          command: release-pr
-
-  release-please-release:
-    if: github.head_ref != 'release-please--branches--master'
-    runs-on: ubuntu-latest
-    needs: find-release-changes
-    strategy:
-      fail-fast: false
-      matrix:
-        module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
-    steps:
-      - uses: google-github-actions/release-please-action@v4
-        id: tag-release
-        with:
-          path: modules/${{ matrix.module }}
-          changelog-path: CHANGELOG.md
-          token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: terraform-module
-          monorepo-tags: true
-          package-name: ${{ matrix.module }}
-          command: github-release
+          include-component-in-tag: true
+          #command: release-pr
+  # release-please-release:
+  #   if: github.head_ref != 'release-please--branches--master'
+  #   runs-on: ubuntu-latest
+  #   needs: find-release-changes
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
+  #   steps:
+  #     - uses: google-github-actions/release-please-action@v4
+  #       id: tag-release
+  #       with:
+  #         path: modules/${{ matrix.module }}
+  #         changelog-path: CHANGELOG.md
+  #         token: ${{ secrets.GITHUB_TOKEN }}
+  #         release-type: terraform-module
+  #         include-component-in-tag: true
+  #         package-name: ${{ matrix.module }}
+  #         command: github-release
