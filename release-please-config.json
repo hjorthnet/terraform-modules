@@ -4,11 +4,11 @@
 "release-type": "terraform-module",
 "separate-pull-requests": true,
 "packages": {
-  "./modules/hello-world": {
+  "modules/hello-world": {
     "component": "hello-world",
     "package-name": "hello-world"
   },
-  "./modules/hello-world2": {
+  "modules/hello-world2": {
     "component": "hello-world",
     "package-name": "hello-world2"
   }
