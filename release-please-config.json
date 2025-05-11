@@ -6,11 +6,13 @@
 "packages": {
   "modules/hello-world": {
     "component": "hello-world",
-    "package-name": "hello-world"
+    "package-name": "hello-world",
+    "include-component-in-tag": true
   },
   "modules/hello-world2": {
     "component": "hello-world",
-    "package-name": "hello-world2"
+    "package-name": "hello-world2",
+    "include-component-in-tag": true
   }
 }
 }
