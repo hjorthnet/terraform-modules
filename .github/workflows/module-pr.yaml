@@ -77,6 +77,8 @@ jobs:
       - name: Find terraform-version
         uses: dflook/terraform-version@v1
         id: terraform-version
+        with:
+          path: ${{ matrix.module }}
       - name: terraform
         uses: hashicorp/setup-terraform@v3
         with:
