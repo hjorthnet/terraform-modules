@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/hjorthnet/terraform-modules/compare/v0.0.1...v0.0.2) (2025-05-11)
+
+
+### Bug Fixes
+
+* **modules/hello-world2:** fix output ([8641a93](https://github.com/hjorthnet/terraform-modules/commit/8641a93ad4b118df27d4890a3c7b8c76e92e9830))
+
 ## [0.0.1](https://github.com/hjorthnet/terraform-modules/compare/0.0.0...v0.0.1) (2025-05-11)
 
 
