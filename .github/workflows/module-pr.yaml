@@ -77,10 +77,12 @@ jobs:
       - name: Find terraform-version
         uses: dflook/terraform-version@v1
         id: terraform-version
+        with:
+          path: ${{ matrix.module }}
       - name: terraform
         uses: hashicorp/setup-terraform@v3
         with:
-          terraform-version: ${{ steps.terraform-version.outputs.version }}
+          terraform_version: ${{ steps.terraform-version.outputs.terraform }}
       - run: terraform init
       - run: terraform fmt -diff -check
       - run: terraform validate
