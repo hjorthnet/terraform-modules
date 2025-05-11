@@ -63,6 +63,7 @@ jobs:
       - run: echo ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
 
   release-pr:
+    if: github.head_ref != 'release-please--branches--master'
     runs-on: ubuntu-latest
     needs: find-release-changes
     strategy:
