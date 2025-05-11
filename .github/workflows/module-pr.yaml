@@ -82,7 +82,7 @@ jobs:
       - name: terraform
         uses: hashicorp/setup-terraform@v3
         with:
-          terraform_version: ${{ steps.terraform-version.outputs.version }}
+          terraform_version: ${{ steps.terraform-version.outputs.terraform }}
       - run: terraform init
       - run: terraform fmt -diff -check
       - run: terraform validate
