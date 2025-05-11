@@ -70,7 +70,7 @@ jobs:
       matrix:
         module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: google-github-actions/release-please-action@v4
         id: release-please
         with:
           path: modules/${{ matrix.module }}
@@ -89,7 +89,7 @@ jobs:
       matrix:
         module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: google-github-actions/release-please-action@v4
         id: tag-release
         with:
           path: modules/${{ matrix.module }}
