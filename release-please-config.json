@@ -1,0 +1,15 @@
+{
+    "include-component-in-tag": true,
+    "tag-separator": "@",
+    "release-type": "terraform-module",
+    "separate-pull-requests": true,
+    "packages": {
+      "./modules/hello-world": {
+        "package-name": "hello-world"
+      },
+      "./modules/hello-world2": {
+        "package-name": "hello-world2"
+      }
+    }
+  }
+  
