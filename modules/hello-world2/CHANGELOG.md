@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.8](https://github.com/hjorthnet/terraform-modules/compare/v0.0.7...v0.0.8) (2025-05-11)
+
+
+### Bug Fixes
+
+* **modules/hello-world2:** Change time to 0038 ([9a1bde8](https://github.com/hjorthnet/terraform-modules/commit/9a1bde8fbe0fc7b35249685b54b885865c3fe081))
+* **modules/hello-world2:** Change time to 0038 ([316897c](https://github.com/hjorthnet/terraform-modules/commit/316897cbe92c5485af4e238695cec2e4dc1170e3))
+
 ## [0.0.7](https://github.com/hjorthnet/terraform-modules/compare/v0.0.6...v0.0.7) (2025-05-11)
 
 
