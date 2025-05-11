@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/hjorthnet/terraform-modules/compare/v0.0.3...v0.0.4) (2025-05-11)
+
+
+### Bug Fixes
+
+* **modules/hello-world2:** Change time to 2359 ([b0dab92](https://github.com/hjorthnet/terraform-modules/commit/b0dab929edac7b887eeb588dcddf56f9fccc5263))
+
 ## [0.0.3](https://github.com/hjorthnet/terraform-modules/compare/v0.0.2...v0.0.3) (2025-05-11)
 
 
