@@ -1,5 +1,5 @@
 resource "null_resource" "default" {
   provisioner "local-exec" {
-    command = "echo Hello world2 0005"
+    command = "echo Hello world2 0020"
   }
 }
