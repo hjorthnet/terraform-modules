@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/hjorthnet/terraform-modules/compare/hello-world-v0.1.0...hello-world-v0.1.1) (2025-05-11)
+
+
+### Bug Fixes
+
+* **modules/hello-world:** Fix echo output - fixes [#11](https://github.com/hjorthnet/terraform-modules/issues/11) ([fb09eea](https://github.com/hjorthnet/terraform-modules/commit/fb09eea51a40ff0233e564a6f23bff9033f88d58))
+
 ## 0.1.0 (2025-05-11)
 
 
