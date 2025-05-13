@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - modules/**
 permissions:
   contents: write
   pull-requests: write
