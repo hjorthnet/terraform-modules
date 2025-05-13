@@ -66,16 +66,14 @@ jobs:
     if: github.head_ref != 'release-please--branches--master'
     runs-on: ubuntu-latest
     needs: find-release-changes
-    strategy:
-      fail-fast: false
-      matrix:
-        module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
+    # strategy:
+    #   fail-fast: false
+    #   matrix:
+    #     module: ${{fromJson(needs.find-release-changes.outputs.module-paths)}}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
-          path: modules/${{ matrix.module }}
-          changelog-path: CHANGELOG.md
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: terraform-module
           include-component-in-tag: true
