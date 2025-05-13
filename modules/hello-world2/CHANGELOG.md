@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/hjorthnet/terraform-modules/compare/hello-world2@v1.0.0...hello-world2@v1.0.1) (2025-05-13)
+
+
+### Bug Fixes
+
+* **modules/hello-world2:** Fix timestamp 2227 ([#56](https://github.com/hjorthnet/terraform-modules/issues/56)) ([c5b222a](https://github.com/hjorthnet/terraform-modules/commit/c5b222a798b940e1f4464f3bf65e4a3f24ae52d1))
+
 ## [1.0.0](https://github.com/hjorthnet/terraform-modules/compare/hello-world2@v0.1.0...hello-world2@v1.0.0) (2025-05-13)
 
 
