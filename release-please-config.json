@@ -11,7 +11,7 @@
     "include-component-in-tag": true
   },
   "modules/hello-world2": {
-    "component": "hello-world",
+    "component": "hello-world2",
     "package-name": "hello-world2",
     "include-component-in-tag": true
   }
