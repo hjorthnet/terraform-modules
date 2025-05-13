@@ -8,12 +8,14 @@
   "modules/hello-world": {
     "component": "hello-world",
     "package-name": "hello-world",
-    "include-component-in-tag": true
+    "include-component-in-tag": true,
+    "prerelease": true
   },
   "modules/hello-world2": {
     "component": "hello-world2",
     "package-name": "hello-world2",
-    "include-component-in-tag": true
+    "include-component-in-tag": true,
+    "prerelease": true
   }
 }
 }
