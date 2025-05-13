@@ -26,6 +26,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: terraform-module
+          path: modules/hello-world2
+
           include-component-in-tag: true
           #command: release-pr
   # release-please-release:
