@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
-          token: ${{ s.GITHUB_TOsecretKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           include-component-in-tag: true
           #command: release-pr
   # release-please-release:
