@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/hjorthnet/terraform-modules/compare/hello-world2@v0.1.0...hello-world2@v1.0.0) (2025-05-13)
+
+
+### Miscellaneous Chores
+
+* **modules/hello-world2:** release 1.0.0 ([53d75ce](https://github.com/hjorthnet/terraform-modules/commit/53d75cefbe7c1565b2e2fde98f7112d166b9e8e1))
+
 ## 0.1.0 (2025-05-13)
 
 
