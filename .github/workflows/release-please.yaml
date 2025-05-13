@@ -1,5 +1,4 @@
 name: Release please workflow
-
 on:
   push:
     branches:
@@ -65,7 +64,7 @@ jobs:
   release-pr:
     if: github.head_ref != 'release-please--branches--master'
     runs-on: ubuntu-latest
-    needs: find-release-changes
+    # needs: find-release-changes
     # strategy:
     #   fail-fast: false
     #   matrix:
