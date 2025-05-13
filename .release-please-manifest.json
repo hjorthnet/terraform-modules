@@ -1,2 +1,4 @@
-{"modules/hello-world":"0.1.0"}
-  
+{
+  "modules/hello-world2":"0.1.0",
+ "modules/hello-world":"0.1.0"
+}
